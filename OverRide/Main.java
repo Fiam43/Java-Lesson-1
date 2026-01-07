@@ -13,8 +13,8 @@ class Child extends Parent{
 
 class Main {
     public static void main(String[] args) {
-        Parent p = new Child();
-        //Parent p = new Parent();
+        //Parent p = new Child();
+        Parent p = new Parent();
         p.sayHello();
     }
 }
